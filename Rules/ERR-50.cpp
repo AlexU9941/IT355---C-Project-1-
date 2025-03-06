@@ -1,21 +1,31 @@
 #include <iostream>
 #include <stdexcept>
 
-// Function that may throw exceptions
 /**
- * @brief Compares two numbers and prints the larger value to the console
+ * @brief Determines and prints the larger of two integers.
  * 
- * @param x Number 1.
- * @param y Number 2.
+ * @param x First integer.
+ * @param y Second integer.
+ * 
+ * @throws std::invalid_argument if the numbers are equal.
  */
 void findLarger(int x, int y) {
     if (x == y) {
         throw std::invalid_argument("Arguments are equal");
     }
-    
-    std::cout << x << " / " << y << " = " << x / y << std::endl;
+    else if (x > y) {
+        std::cout << x << " is larger." << std::endl;
+    }
+    else {
+        std::cout << y << " is larger." << std::endl;
+    }
 }
 
+/**
+ * @brief Main function to take user input and determine the larger number.
+ * 
+ * @return int Program exit status.
+ */
 int main() {
     int x, y;
     while (true) {
@@ -35,4 +45,3 @@ int main() {
     std::cout << "Program completed successfully.\n";
     return 0;
 }
-
