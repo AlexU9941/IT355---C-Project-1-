@@ -30,11 +30,6 @@ void findLarger(int x, int y) {
     }
 }
 
-/**
- * @brief Main function to take user input and determine the larger number.
- * 
- * @return int Program exit status.
- */
 int main() {
     int x, y;
     while (true) {
