@@ -1,21 +1,53 @@
+/**
+ * @file ERR-51.cpp
+ * @brief Demonstrates Rule ERR-51 in C++.
+ * 
+ * This program defines and uses two custom exception classes, `PositiveError`
+ * and `NegativeError`, to handle positive and negative number errors.
+ * The `processNumber` function processes an integer and throws an exception
+ * if the number is not zero.
+ */
+
 #include <iostream>
 #include <stdexcept>
 
-// Custom exception classes
+/**
+ * @class PositiveError
+ * @brief Exception thrown when a positive number is encountered.
+ */
 class PositiveError : public std::exception {
 public:
+    /**
+     * @brief Provides an error message for positive number exceptions.
+     * @return A C-style string describing the error.
+     */
     const char* what() const noexcept override {
         return "Positive number error occurred!";
     }
 };
 
+/**
+ * @class NegativeError
+ * @brief Exception thrown when a negative number is encountered.
+ */
 class NegativeError : public std::exception {
 public:
+    /**
+     * @brief Provides an error message for negative number exceptions.
+     * @return A C-style string describing the error.
+     */
     const char* what() const noexcept override {
         return "Negative number error occurred!";
     }
 };
 
+/**
+ * @brief Processes a number and throws exceptions based on its value.
+ * 
+ * @param num The integer to process.
+ * @throws PositiveError If num is positive.
+ * @throws NegativeError If num is negative.
+ */
 void processNumber(int num) {
     if (num == 0) {
         std::cout << "Success: Zero passed in.\n";
@@ -26,6 +58,11 @@ void processNumber(int num) {
     }
 }
 
+/**
+ * @brief Main function demonstrating exception handling.
+ * 
+ * @return 0 on successful execution.
+ */
 int main() {
     int num;
 
