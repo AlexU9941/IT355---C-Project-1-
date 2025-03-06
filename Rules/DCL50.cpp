@@ -13,15 +13,6 @@ int add(Arg f, Arg s){
     return f + s; 
 }
 
-/**
- * @brief Adds two integers in compliance with DCL50-CPP.
- * DCL50-CPP states: "Do not define a C-style variadic function"
- * This function takes two integers as input and returns their sum.
- *
- * @param[in] a First integer to add.
- * @param[in] b Second integer to add.
- * @return Sum of the two integers.
- */
 template <typename Arg2, typename... Ts, typename std::enable_if<std::is_integral<Arg2>::value>::type * = nullptr> 
 int add2(Arg2 f, Ts...rest){
     return f + add2(rest...); 
