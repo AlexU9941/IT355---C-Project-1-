@@ -2,6 +2,12 @@
 #include <stdexcept>
 
 // Function that may throw exceptions
+/**
+ * @brief Compares two numbers and prints the larger value to the console
+ * 
+ * @param x Number 1.
+ * @param y Number 2.
+ */
 void findLarger(int x, int y) {
     if (x == y) {
         throw std::invalid_argument("Arguments are equal");
