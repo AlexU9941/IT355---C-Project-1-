@@ -58,11 +58,6 @@ void processNumber(int num) {
     }
 }
 
-/**
- * @brief Main function demonstrating exception handling.
- * 
- * @return 0 on successful execution.
- */
 int main() {
     int num;
 
