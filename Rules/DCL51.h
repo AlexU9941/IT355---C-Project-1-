@@ -16,7 +16,7 @@
  * @file TestClass
  * @brief Method to test the code
  *Method prints a test message. 
- * @returns resulting string with test resuly
+ * @returns resulting string with test result
  */
 class TestClass{
     public: 
