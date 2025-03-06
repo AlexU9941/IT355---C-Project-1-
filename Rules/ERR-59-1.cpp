@@ -1,14 +1,24 @@
-#include <iostream>
-#include "ERR-59-2.h"
+/**
+ * @file ERR-59-1.cpp
+ * @brief Demonstrates rule ERR-59 in C++. Main file.
+ * 
+ * This file demonstrates calling a function from a shared library, handling errors 
+ * from the return code, and displaying an appropriate error message.
+ */
 
+#include <iostream>
+#include "ERR-59-2.h" ///< Header file for the shared library function
+
+/**
+ * @brief Main function of the program.
+ * 
+ * This function calls a function from a shared library and handles potential errors 
+ * by printing an error message if the function fails.
+ * 
+ * @return 0 if the operation is successful, 1 if an error occurs.
+ */
 int main() {
     std::string errorMsg;
-
-    /*run with:
-    g++ -fPIC -shared -o libERR-59-2.so ERR-59-2.cpp
-    g++ -o ERR-59-1 ERR-59-1.cpp -L. -lERR-59-2
-    LD_LIBRARY_PATH=. ./ERR-59-1
-    */
     
     // Call the function from the shared library
     if (riskyFunction(errorMsg) == ErrorCode::FAILURE) {
