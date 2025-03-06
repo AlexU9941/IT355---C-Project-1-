@@ -11,6 +11,13 @@
 
 #include <string>
 
+
+/**
+ * @file TestClass
+ * @brief Method to test the code
+ *Method prints a test message. 
+ * @returns resulting string with test resuly
+ */
 class TestClass{
     public: 
     std::string test() const;
