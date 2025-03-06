@@ -58,6 +58,14 @@ void update_bookkeeping(void *allocated_ptr, std::size_t size, bool alloc){
     std::cout<< "update_bookkeeping called with ptr: " << allocated_ptr << " , size: " << size << " , alloc: " << alloc << std::endl;  
 }
 
+/**
+ * @brief Main function definition here
+ * Entry point of the program here. Creats an instance of S. 
+ * Calls the custom new and delete operators.
+ * Prints result to the console
+ * @returns 0 upon success.
+ */
+
 int main(){
     S* obj = new S();
     delete obj;
