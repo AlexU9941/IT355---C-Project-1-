@@ -1,6 +1,6 @@
 /**
  * @file ERR50.cpp
- * @brief Demonstrates Rule ERR-50 in C++.
+ * @brief Demonstrates Rule ERR50 in C++.
  * 
  * This program asks for two numbers from the user and prints out which is larger.
  * Program will throw an error if the two numbers are the same.
