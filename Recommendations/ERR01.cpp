@@ -1,3 +1,10 @@
+/**
+ * @file ERR01.cpp
+ * @brief Demonstrates recommendation ERR01 in C++.
+ * 
+ * This file uses ferror() on a file stream to report a errors.
+ */
+
 #include <cstdio>
 #include <iostream>
 
