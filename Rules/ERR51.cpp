@@ -1,5 +1,5 @@
 /**
- * @file ERR-51.cpp
+ * @file ERR51.cpp
  * @brief Demonstrates rule ERR-51 in C++.
  * 
  * This program defines and uses two custom exception classes, `PositiveError`
