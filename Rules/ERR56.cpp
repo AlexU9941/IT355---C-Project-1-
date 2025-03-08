@@ -1,5 +1,5 @@
 /**
- * @file ERR-56.cpp
+ * @file ERR56.cpp
  * @brief Demonstrates rule ERR-56 in C++.
  * 
  * This file defines a custom class `PositiveVector` which only allows adding 
