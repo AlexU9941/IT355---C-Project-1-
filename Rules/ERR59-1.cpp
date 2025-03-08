@@ -1,5 +1,5 @@
 /**
- * @file ERR-59-1.cpp
+ * @file ERR59-1.cpp
  * @brief Demonstrates rule ERR-59 in C++. Main file.
  * 
  * This file demonstrates calling a function from a shared library, handling errors 
@@ -7,7 +7,7 @@
  */
 
 #include <iostream>
-#include "ERR-59-2.h" ///< Header file for the shared library function
+#include "ERR59-2.h" ///< Header file for the shared library function
 
 /**
  * @brief Main function of the program.
