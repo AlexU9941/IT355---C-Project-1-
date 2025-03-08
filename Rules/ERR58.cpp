@@ -1,6 +1,6 @@
 /**
  * @file ERR-58
- * @brief Demonstrates rule ERR-58 in C++.
+ * @brief Demonstrates rule ERR58 in C++.
  * 
  * This file defines a global object whose constructor may throw an exception. 
  * It demonstrates how to safely handle exceptions that may occur during the 
