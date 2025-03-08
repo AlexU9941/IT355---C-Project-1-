@@ -1,6 +1,6 @@
 /**
  * @file ERR56.cpp
- * @brief Demonstrates rule ERR-56 in C++.
+ * @brief Demonstrates rule ERR56 in C++.
  * 
  * This file defines a custom class `PositiveVector` which only allows adding 
  * non-negative integers to a vector. It handles invalid inputs by throwing 
