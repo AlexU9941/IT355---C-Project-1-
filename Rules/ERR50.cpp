@@ -1,5 +1,5 @@
 /**
- * @file ERR-50.cpp
+ * @file ERR50.cpp
  * @brief Demonstrates Rule ERR-50 in C++.
  * 
  * This program asks for two numbers from the user and prints out which is larger.
