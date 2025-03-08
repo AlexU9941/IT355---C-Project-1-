@@ -6,8 +6,8 @@
  * error message accordingly.
  */
 
-#ifndef ERR_59_2_H
-#define ERR_59_2_H
+#ifndef ERR59_2_H
+#define ERR59_2_H
 
 #include <string>
 
