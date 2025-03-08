@@ -1,6 +1,6 @@
 /**
  * @file ERR54.cpp
- * @brief Demonstrates rule ERR-54 in C++.
+ * @brief Demonstrates rule ERR54 in C++.
  * 
  * This file defines a base exception class and a derived exception class, 
  * both inheriting from std::exception. It also defines a class that throws 
