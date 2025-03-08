@@ -1,12 +1,12 @@
 /**
- * @file ERR-59-2.cpp
+ * @file ERR59-2.cpp
  * @brief Demonstrates rule ERR-59 in C++. Library file.
  * 
  * This file defines the `riskyFunction` which simulates an error by setting 
  * an error message and returning a failure code, without throwing an exception.
  */
 
-#include "ERR-59-2.h" ///< Header file defining the ErrorCode enum and function signature
+#include "ERR59-2.h" ///< Header file defining the ErrorCode enum and function signature
 
 /**
  * @brief Simulates a failure and sets an error message.
