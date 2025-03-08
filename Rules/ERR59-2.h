@@ -1,5 +1,5 @@
 /**
- * @file ERR-59-2.hERR-59-2.cpp
+ * @file ERR59-2.h
  * 
  * This file defines the `ErrorCode` enum and the `riskyFunction` function. 
  * The `riskyFunction` simulates an operation that may fail and sets an 
