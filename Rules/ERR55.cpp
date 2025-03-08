@@ -1,5 +1,5 @@
 /**
- * @file ERR-55.cpp
+ * @file ERR55.cpp
  * @brief Demonstrates rule ERR-55 in C++.
  * 
  * This file contains a function that is explicitly marked as noexcept, 
