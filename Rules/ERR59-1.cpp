@@ -1,6 +1,6 @@
 /**
  * @file ERR59-1.cpp
- * @brief Demonstrates rule ERR-59 in C++. Main file.
+ * @brief Demonstrates rule ERR59 in C++. Main file.
  * 
  * This file demonstrates calling a function from a shared library, handling errors 
  * from the return code, and displaying an appropriate error message.
