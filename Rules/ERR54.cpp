@@ -1,5 +1,5 @@
 /**
- * @file ERR-54.cpp
+ * @file ERR54.cpp
  * @brief Demonstrates rule ERR-54 in C++.
  * 
  * This file defines a base exception class and a derived exception class, 
