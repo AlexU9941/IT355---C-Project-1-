@@ -1,3 +1,10 @@
+/**
+ * @file ERR07.cpp
+ * @brief Demonstrates recommendation ERR07 in C++.
+ * 
+ * This file uses std::stoi, a safe alternative to atoi.
+ */
+
 #include <iostream>
 #include <string>
 #include <exception>
